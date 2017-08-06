@@ -1,0 +1,9 @@
+<div *ngIf="profile">
+  <h3>Hi {{ profile.name }}!</h3>
+    <img src="{{ profile.picture }}" class="avatar" alt="avatar">
+    <div>
+      <i class="glyphicon glyphicon-envelope"></i> {{ profile.email }}
+    </div>
+    <h3>Infos</h3>
+    <pre class="full-profile">{{ profile | json }}</pre>
+</div>
