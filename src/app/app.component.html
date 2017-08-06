@@ -1,0 +1,15 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">TCC</a>
+    </div>
+    <div class="collapse navbar-collapse text-right">
+        <button class="btn btn-default" *ngIf="isLogged()" (click)="logout()">Logout</button>
+        <button class="btn btn-default" *ngIf="!isLogged()" (click)="login()">Login</button>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
