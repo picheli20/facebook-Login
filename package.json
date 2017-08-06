@@ -8,7 +8,9 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "preinstall": "npm install -g http-server",
+    "postinstall": "ng build --prod"
   },
   "private": true,
   "dependencies": {
@@ -24,6 +26,7 @@
     "auth0-js": "^8.8.0",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
+    "http-server": "^0.10.0",
     "rxjs": "^5.4.1",
     "zone.js": "^0.8.14"
   },
