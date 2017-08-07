@@ -8,14 +8,19 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+<<<<<<< HEAD
     "e2e": "ng e2e",
     "preinstall": "npm install -g @angular/cli && npm install && ng build"
+=======
+    "e2e": "ng e2e"
+>>>>>>> 8b297002037d9c8e5bdedc9f1f743c3c68a138b0
   },
   "private": true,
   "dependencies": {
     "@angular/animations": "^4.0.0",
     "@angular/common": "^4.0.0",
     "@angular/compiler": "^4.0.0",
+    "@angular/cli": "^1.1.0",
     "@angular/core": "^4.0.0",
     "@angular/forms": "^4.0.0",
     "@angular/http": "^4.0.0",
